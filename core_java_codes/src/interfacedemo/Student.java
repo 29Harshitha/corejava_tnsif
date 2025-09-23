@@ -19,12 +19,10 @@ public class Student implements Registerable {
     }
 
     // Implementing methods from Registerable
-    @Override
     public void register() {
         System.out.println("Student " + name + " registered for course: " + course);
     }
 
-    @Override
     public void displayDetails() {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);

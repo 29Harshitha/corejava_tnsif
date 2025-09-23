@@ -1,7 +1,7 @@
 package exceptiondemo;
 import java.io.IOException;
 
-public class Throsexception {
+public class ThrowsExceptionDemo {
 	
 	void printing() //no exception
 	{
